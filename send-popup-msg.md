@@ -7,5 +7,6 @@ Copy the following codes into a PowerShell script file you created, and then run
 Function sendMSG { 
 	Param([Parameter(Mandatory=$true)]$computer, [Parameter(Mandatory=$true)]$message)
 	Invoke-Command -ComputerName $computer -Credential (Get-Credential) -ScriptBlock { msg * /V /W /TIME:15 "$message" }
+	}
 sendMSG
 ```
