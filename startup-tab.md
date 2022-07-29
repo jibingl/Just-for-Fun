@@ -21,8 +21,8 @@
   - `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run`
   - `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run`
   - `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run`
-  - `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run32`  
-> 🎺 Note: The disabled items in the Task Manager Startup tab are stored in the StartupApproved registry locations.
+  - `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run32`    
+🎺 Note: The disabled items in _Startup_ tab are stored in the `StartupApproved` registry locations.
 
 ### Reference: 
 Srinivasan, Ramesh. How to Remove Invalid Entries from Task Manager Startup Tab. winhelponline.com. Retrieved from: https://www.winhelponline.com/blog/task-manager-startup-tab-entries-remove-invalid/
